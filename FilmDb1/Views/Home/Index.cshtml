@@ -1,0 +1,13 @@
+﻿@model IEnumerable<FilmDb1.Models.Film>
+@{
+    ViewBag.Title = "Films";
+
+}
+
+@foreach (var p in Model)
+{
+    <div class="row">
+        @Html.Partial("FilmSummary", p)
+    </div>
+}
+
