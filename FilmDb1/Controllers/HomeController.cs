@@ -142,6 +142,7 @@ namespace FilmDb1.Controllers
                             product.Categories.Add(db.Categories.Find(c));
                         }
                     }
+
                 }
                 if (upload != null)
                 {
